@@ -1,0 +1,40 @@
+{
+    "fields":[
+        {   
+            "field":"host.name",
+            "dataType":"host",
+            "tlp": 0
+        },
+        {
+            "field": "winlog.event_data.CommandLine",
+            "dataType": "command",
+            "tlp": 0
+        },
+        {
+            "field": "hash.md5",
+            "dataType": "hash",
+            "tlp": 0
+        },
+        {
+            "field": "hash.imphash",
+            "dataType": "hash",
+            "tlp": 0
+        },
+        {
+            "field": "hash.sha1",
+            "dataType": "hash",
+            "tlp": 0
+        },
+        {
+            "field": "hash.sha256",
+            "dataType": "hash",
+            "tlp": 0
+        },
+        {
+            "field": "process.args",
+            "join": true,
+            "dataType": "command",
+            "tlp": 0
+        }
+    ]
+}

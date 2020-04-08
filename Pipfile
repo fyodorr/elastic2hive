@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+elasticsearch = "*"
+requests = "*"
+libmagic = "*"
+python-magic = "*"
+pypandoc = "*"
+future = "*"
+pytest = "*"
+mock = "*"
+
+[requires]
+python_version = "3.7"
